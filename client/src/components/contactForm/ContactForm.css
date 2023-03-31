@@ -1,0 +1,112 @@
+.formContainer {
+    width: 100%;
+    color: white;
+    background-color: rgb(29, 27, 27);
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 50px 20px;
+}
+
+.contactTitle {
+    font-size: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.formLeft {
+    flex: 1;
+    margin: 0px 20px;
+}
+
+.formRight {
+    flex: 2;
+    margin: 0px 20px;
+    padding-top: 100px;
+}
+
+.formLabels {
+    font-size: 26px;
+    padding: 10px 0px;
+}
+
+form input {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white; 
+    font-size: 16px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+
+.fName input {
+    width: 80%;
+}
+
+.lName input {
+    width: 80%;
+}
+
+.emailAdd label {
+    padding-right: 80px;
+}
+
+.emailAdd input {
+    width: 80%;
+}
+
+.subjectLine label {
+    padding-right: 57px;
+}
+
+.subjectLine input {
+    width: 80%;
+}
+
+.messageArea {
+    display: flex;
+    align-items: top;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+form textarea {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    height: 200px;
+    max-height: 500px;
+    width: 100%;
+}
+
+.sendButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sendButton input {
+    width: 250px;
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgb(91, 234, 167);
+    color: black;
+    font-weight: bold;
+    border: none;
+}

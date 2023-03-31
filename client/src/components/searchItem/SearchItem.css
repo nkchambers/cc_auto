@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.searchItem {
+    background-color: rgb(29, 27, 27);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    max-width: 1024px;
+    width: fit-content;
+    height: auto;
+    border: 2px solid rgb(91, 234, 167);
+}
+
+.siImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.siTitle {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.siTitle h1 {
+    padding-right: 15px;
+    letter-spacing: 1px;
+}
+
+.siDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.siViewButton {
+    background-color:  rgb(29, 27, 27);
+    border: 2px solid rgb(91, 234, 167);
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 12px 50px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.siFeatureContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 20px;
+}
+
+.siEssentialsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 50px;
+    font-size: 36px;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+
+.FeatureIcons {
+    transform: scale(2);
+    padding: 20px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.FeatureIcons p {
+    padding-top: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.backupCamera {
+    display: flex;
+    flex-direction: column;
+}
+
+.faIconWifi {
+    transform: rotate(180deg);  
+    margin-top: -10px;
+    margin-left: -2px;
+}
+
+.siNiceToHaveTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 50px;
+    font-size: 36px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+
+.siNiceToHave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+

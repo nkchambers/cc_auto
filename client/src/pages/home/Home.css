@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.homeWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeHeaderImg {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 100px;
+}
+
+.homeHeaderImg img {
+    height: auto;
+    width: 60%;
+}
+
+.howItWorks {
+    width: 100%;
+    background-color: rgb(29, 27, 27);
+}
+
+.howItWorks .topIcons {
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 300px;
+
+}
+
+.howItWorksTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    padding: 0px 20px;
+    color: whitesmoke;
+}
+
+.howItWorksTitle h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.howItWorksTitle .brandLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: -15px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+#brandChar {
+    padding-top: 20px;
+    padding-left: 14px;
+    padding-right: 10px;
+    margin-bottom: -30px;
+}
+
+.roadLines {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 2;
+}
+
+.roadLines .line {
+    width: 50px;
+    height: 5px;
+    background-color: rgb(246, 216, 81);
+}
+
+.howItWorks .bottomIcons {
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+}
+
+.howItWorks .faIcons {
+    transform: scale(3);
+}
+
+.howItWorksDesc {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.stepDesc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 50px 0px;
+}
+
+.numIcons {
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(246, 216, 81);
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    transform: scale(2);
+    font-size: 25px;
+}
+
+.stepDesc > p {
+    width: 70%;
+    font-size: 40px;
+    color:   rgb(29, 27, 27);
+}
+
+.stepDescIcons {
+    transform: scale(5);
+}
+

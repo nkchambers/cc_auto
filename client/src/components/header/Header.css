@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: rgb(29, 27, 27);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    padding: 50px 0px 30px 0px;
+}
+
+.headerContainer.listMode {
+    width: 100%;
+}
+
+.headerList {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 30px 0px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    transform: scale(1.5);
+}
+
+.headerListItem .faIcons {
+    transform: scale(2);
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.headerSignUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerDesc {
+    font-size: 22px;
+    padding: 20px 50px;
+}
+
+.headerBtn {
+    background-color:rgb(29, 27, 27);
+    color:  whitesmoke;
+    font-weight: 500;
+    border: 2px solid rgb(91, 234, 167);
+    border-radius: 15px;
+    padding: 12px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.headerSearch {
+    width: 80%;
+    max-width: 1024px;
+    height: 90px;
+    background-color: rgb(29, 27, 27);
+    border: 4px solid rgb(91, 234, 167);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: -130px;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.headerSearchItem .faIcons {
+    transform: scale(2);
+}
+
+.headerSearchInput {
+    background-color: rgb(29, 27, 27);
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.headerSearchText {
+    color: rgb(140, 135, 135);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.calendar {
+    position: absolute;
+    top: 65px;
+}

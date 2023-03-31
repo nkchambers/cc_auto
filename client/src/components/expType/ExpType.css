@@ -1,0 +1,59 @@
+.expListContainer {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 200px 0px;
+    font-family: sans-serif;
+}
+
+.expListTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.expListTitle h1 {
+    border: 3px solid rgb(91, 234, 167);
+    border-radius: 10px;
+    padding: 30px 100px;
+}
+
+.expTypeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.expType {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.expType img {
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.expTitles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(91, 234, 167);
+    border-radius: 20px;
+    padding: 15px 50px;
+    gap: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}

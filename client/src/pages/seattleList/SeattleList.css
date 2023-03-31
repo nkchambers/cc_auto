@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.listContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.listWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.listSearch {
+    flex: 1;
+    background-color: rgb(29, 27, 27);
+    padding: 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 20px;
+    width: 100%;
+    height: fit-content;
+}
+
+.lsTitle {
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.lsItem {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.lsItem > input {
+    height: 30px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.lsItem > span {
+    height: 30px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lsItem > label {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+.lsOptions {
+    padding: 10px;
+}
+
+.lsOptionItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.lsOptionInput {
+    width: 100px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.listSearch > .lsButton {
+    padding: 10px;
+    background-color: rgb(29, 27, 27);
+    color: whitesmoke;
+    border: 2px solid rgb(91, 234, 167);
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.listResult {
+    flex: 3;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.listResult > .seattleVehicleTitle {
+    background-color: rgb(29, 27, 27);
+    border-radius: 10px;
+    font-size: 50px;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 5px;
+    margin-bottom: 30px;
+    color: white;
+    letter-spacing: 2px;
+    border: 2px solid rgb(91, 234, 167);
+    
+}

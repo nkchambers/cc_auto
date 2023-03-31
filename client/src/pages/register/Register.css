@@ -1,0 +1,197 @@
+.register {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.registerBackground {
+    /* Set rules to fill background */
+    min-width: 1024px;
+    min-height: 100%;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.registerBackground {
+        left: 50%;
+        margin-left: -512px; /* 50% */
+    }
+}
+
+.registerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    position: fixed;
+}
+
+.ccAutoRTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(29, 27, 27);
+    opacity: 0.80;
+    padding: 0px 1000px;
+    margin-bottom: 12px;
+}
+
+.ccAutoRTitle h1 {
+    font-size: 60px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+.registerBrandLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: -15px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+#registerBrandChar {
+    padding-top: 15px;
+    padding-left: 12px;
+    padding-right: 10px;
+    margin-bottom: -35px;
+}
+
+.registerTitle {
+    color: white;
+    background-color: rgb(29, 27, 27);
+    opacity: 0.80;
+    border-radius: 12px;
+    font-size: 30px;
+    padding: 10px 50px;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
+
+.registerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    gap: 5px;
+}
+
+.registerUsername {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerUsername>label {
+    letter-spacing: 1px;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin-right: 25px;
+    background-color: rgb(29, 27, 27);
+    opacity: 0.80;
+    border-radius: 12px;
+    padding: 5px 20px;
+}
+
+.registerEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerEmail>label {
+    letter-spacing: 1px;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin-right: 90px;
+    background-color: rgb(29, 27, 27);
+    opacity: 0.80;
+    border-radius: 12px;
+    padding: 5px 20px;
+}
+
+.registerPassword {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerPassword>label {
+    letter-spacing: 1px;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    background-color: rgb(29, 27, 27);
+    opacity: 0.80;
+    border-radius: 12px;
+    padding: 5px 20px;
+}
+
+.registerInput {
+    height: 50px;
+    padding: 10px 20px;
+    background-color: rgb(29, 27, 27);
+    border: 4px solid rgb(91, 234, 167);
+    border-radius: 12px;
+    opacity: 0.80;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 12px;
+    margin-right: 210px;
+}
+
+.registerButton {
+    background-color: rgb(29, 27, 27);
+    opacity: 0.80;
+    border: 6px solid rgb(91, 234, 167);
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.loginLink {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.registerLoginButton {
+    background-color: rgb(29, 27, 27);
+    opacity: 0.80;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    padding: 12px 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
